@@ -1,0 +1,6 @@
+console.log("hello world")
+console.log(3+6)
+// console.log(window)
+// console.log("goo morning")
+// console.log(process)
+// console.log(global)

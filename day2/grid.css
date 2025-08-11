@@ -1,0 +1,47 @@
+*{
+    background: lightcoral;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px
+}
+.box{
+    background: lightblue;
+    border: 1px solid darkblue;
+    text-align: center;
+    padding: 20px;
+}
+
+/* div{
+    height: 200px;
+}
+.box1{
+    background: yellowgreen;
+}
+.box2{
+    background: blue;
+}
+.box3{
+    
+    background: black;
+}
+.box4{
+    background: yellow;
+}
+.box5{
+    background: violet;
+}
+.box6{
+
+    background: darkmagenta;
+} */
+#z{
+    grid-column: span 3;
+
+
+}
+#three{
+    grid-row: span 3;
+    grid-column: span 2;
+}

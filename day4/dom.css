@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(to Left,rgb(203, 84, 84), rgb(218, 218, 77),rgb(106, 106, 218));
+    text-align: center;
+    color: rgb(69, 192, 107);
+}
+h3{
+    color: blue;
+}
+p{
+    height: 10px;
+    color: white;
+}

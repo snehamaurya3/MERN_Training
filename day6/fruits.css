@@ -1,0 +1,24 @@
+body{
+    background: lightblue;
+    text-align: center;
+}
+h1{
+    background:lightgreen;
+    color: red;
+    border-radius: 20px;
+}
+div{
+    background: rgb(77, 206, 154);
+    height: 80px;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#b{
+    background: lightcoral;
+}
+#c{
+    background: rgb(191, 75, 75);
+}

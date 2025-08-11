@@ -1,0 +1,12 @@
+body{
+    background: lightblue;
+    text-align: center;
+}
+div{
+    height: 200px;
+    width: 200px;
+    background: black;
+    margin-left: 43%;
+    margin-top:20px;
+    margin-bottom: 20px;
+}

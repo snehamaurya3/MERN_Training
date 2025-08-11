@@ -1,0 +1,20 @@
+*{
+    background: plum;
+    color: brown;
+
+}
+button{
+    width: 100px;
+    font-size: 15px;
+    border-radius: 20px;
+    background: grey;
+    transition: 1s;
+    color: blue;
+
+}
+button:hover{
+    color: blanchedalmond;
+    background: darkgray;
+    cursor:pointer
+
+}

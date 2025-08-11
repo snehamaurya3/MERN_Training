@@ -1,0 +1,27 @@
+body{
+    background: lightblue;
+    /* text-align: center; */
+
+}
+h1{
+    background:black;
+    color: yellow;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+#a{
+    background: white;
+
+}
+.z{
+    color: blue;
+}
+div{
+    background: green;
+    height: 200px;
+}
+span{
+    background: lightgreen;
+    height: 200px;
+}

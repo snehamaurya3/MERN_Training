@@ -1,0 +1,57 @@
+body{
+    background: pink;
+    text-align: center;
+}
+
+.a{
+    background: yellow;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    animation: box 1s infinite alternate;
+}
+
+.mybox{
+    background: red;
+    height: 150px;
+    width: 150px;
+    margin-top: 300px;
+    margin-left: 500px;
+    margin-right: 500px;
+    animation-name: hill;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: forwards; */
+}
+@keyframes hill {
+    0%{
+        transform: scale(1) rotate(0deg);
+        border-radius: 0%;
+    }
+    50%{
+        transform: scale(2) rotate(100deg);
+        border-radius: 50%;
+        background: blueviolet;
+    }
+    100%{
+        transform: scale(3) rotate(300deg);
+        border-radius: 0%;
+        background: palevioletred;
+    }
+}
+
+/* div:hover{
+    background: green;
+    cursor: pointer;
+    border-radius: 50%;
+
+} */
+
+@keyframes box {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(200px);
+    }
+}

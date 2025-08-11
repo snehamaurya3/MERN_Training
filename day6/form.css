@@ -1,0 +1,24 @@
+*{
+    background:lightgray;
+    text-align: center;
+}
+h1{
+    background: palegoldenrod;
+    color: brown;
+}
+
+div{
+    padding-top: 30px;
+}
+input{
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+button{
+    background: peachpuff;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
